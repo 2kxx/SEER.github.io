@@ -5,7 +5,7 @@ title: "Endogenous Reprompting: Self-Evolving Cognitive Alignment for Unified Mu
 
 authors: "Zhenchen Tang<sup>1,2</sup>, Songlin Yang<sup>3</sup>, Zichuan Wang<sup>1,2</sup>, Bo Peng<sup>1*</sup>, Yang Li<sup>1,2</sup>, Beibei Dong<sup>1,2</sup>, Jing Dong<sup>1*</sup>"
 
-affiliations: 
+affiliations:
   - "1 New Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences"
   - "2 School of Artificial Intelligence, University of Chinese Academy of Sciences"
   - "3 MMLab@HKUST, The Hong Kong University of Science and Technology"
@@ -13,24 +13,85 @@ affiliations:
 paper: "https://arxiv.org/pdf/xxx.pdf"
 code: "https://github.com/2kxx/SEER"
 ---
-🧠 Abstract
-<div class="columns is-centered"> <div class="column is-four-fifths"> <div class="content has-text-justified">
+
+## 🧠 Abstract
+
+<div class="columns is-centered">
+  <div class="column is-four-fifths">
+    <div class="content has-text-justified">
+
 Unified Multimodal Models (UMMs) exhibit strong understanding, yet this capability often fails to effectively guide generation.
-We attribute this limitation to a Cognitive Gap: the model lacks an explicit mechanism to leverage its understanding to improve its own generation process.
+We attribute this limitation to a **Cognitive Gap**: the model lacks an explicit mechanism to leverage its understanding to improve its own generation process.
 
-To bridge this gap, we propose Endogenous Reprompting, which transforms understanding from a passive encoding into an explicit generative reasoning step by translating human intent into self-aligned descriptors during generation.
+To bridge this gap, we propose **Endogenous Reprompting**, which transforms understanding from a passive encoding into an explicit generative reasoning step by translating human intent into self-aligned descriptors during generation.
 
-We further introduce SEER (Self-Evolving Evaluator and Reprompter), a two-stage endogenous training framework that requires only 300 samples from a compact proxy task—Visual Instruction Elaboration.
-First, Reinforcement Learning with Verifiable Rewards (RLVR) activates the model’s latent evaluation ability via curriculum learning, producing high-fidelity endogenous reward signals.
-Second, Reinforcement Learning with Model-rewarded Thinking (RLMT) leverages these signals to optimize the generative reasoning policy.
+We further introduce **SEER (Self-Evolving Evaluator and Reprompter)**, a two-stage endogenous training framework that requires only **300 samples** from a compact proxy task—Visual Instruction Elaboration.
+First, **Reinforcement Learning with Verifiable Rewards (RLVR)** activates the model’s latent evaluation ability via curriculum learning.
+Second, **Reinforcement Learning with Model-rewarded Thinking (RLMT)** leverages these signals to optimize the generative reasoning policy.
 
-Extensive experiments demonstrate that SEER consistently outperforms state-of-the-art baselines in evaluation accuracy, reprompting efficiency, and generation quality—without sacrificing general multimodal capabilities.
+Extensive experiments demonstrate that SEER consistently outperforms state-of-the-art baselines without sacrificing general multimodal capabilities.
 
-🧩 Cognitive Gap
-<div class="columns is-centered"> <div class="column is-three-quarters has-text-centered"> <img src="/static/image/fig1.jpg" style="max-width: 50%; border-radius: 6px;"> <p class="is-size-7 has-text-grey">Figure 1: Illustration of the Cognitive Gap in Unified Multimodal Models.</p> </div> </div>
-⚙️ SEER Framework
-<div class="columns is-centered"> <div class="column is-four-fifths has-text-centered"> <img src="/static/image/fig2.jpg" style="max-width: 50%; border-radius: 6px;"> <p class="is-size-7 has-text-grey">Figure 2: Overall framework of SEER with endogenous evaluation and reprompting loops.</p> </div> </div>
-🔁 Endogenous Reprompting Mechanism
-<div class="columns is-centered"> <div class="column is-half has-text-centered"> <img src="/static/image/fig3.jpg" style="max-width: 40%; border-radius: 6px;"> <p class="is-size-7 has-text-grey">Figure 3: Endogenous evaluation via RLVR.</p> </div> <div class="column is-half has-text-centered"> <img src="/static/image/fig4.jpg" style="max-width: 40%; border-radius: 6px;"> <p class="is-size-7 has-text-grey">Figure 4: Generative reasoning optimization via RLMT.</p> </div> </div>
-🎯 Qualitative Results
-<div class="columns is-centered"> <div class="column is-four-fifths has-text-centered"> <img src="/static/image/fig5.jpg" style="max-width: 100%; border-radius: 6px;"> <p class="is-size-7 has-text-grey">Figure 5: Qualitative comparison of generation results.</p> </div> </div> ```
+    </div>
+  </div>
+</div>
+
+---
+
+## 🧩 Cognitive Gap
+
+<div class="columns is-centered">
+  <div class="column is-three-quarters has-text-centered">
+    <img src="{{ site.baseurl }}/static/image/fig1.jpg" style="max-width: 70%; border-radius: 6px;">
+    <p class="is-size-7 has-text-grey">
+      Figure 1: Illustration of the Cognitive Gap in Unified Multimodal Models.
+    </p>
+  </div>
+</div>
+
+---
+
+## ⚙️ SEER Framework
+
+<div class="columns is-centered">
+  <div class="column is-four-fifths has-text-centered">
+    <img src="{{ site.baseurl }}/static/image/fig2.jpg" style="max-width: 85%; border-radius: 6px;">
+    <p class="is-size-7 has-text-grey">
+      Figure 2: Overall framework of SEER.
+    </p>
+  </div>
+</div>
+
+---
+
+## 🔁 Endogenous Reprompting Mechanism
+
+<div class="columns is-centered">
+
+  <div class="column is-half has-text-centered">
+    <img src="{{ site.baseurl }}/static/image/fig3.jpg" style="max-width: 90%; border-radius: 6px;">
+    <p class="is-size-7 has-text-grey">
+      Figure 3: Endogenous evaluation via RLVR.
+    </p>
+  </div>
+
+  <div class="column is-half has-text-centered">
+    <img src="{{ site.baseurl }}/static/image/fig4.jpg" style="max-width: 90%; border-radius: 6px;">
+    <p class="is-size-7 has-text-grey">
+      Figure 4: Generative reasoning optimization via RLMT.
+    </p>
+  </div>
+
+</div>
+
+---
+
+## 🎯 Qualitative Results
+
+<div class="columns is-centered">
+  <div class="column is-four-fifths has-text-centered">
+    <img src="{{ site.baseurl }}/static/image/fig5.jpg" style="max-width: 100%; border-radius: 6px;">
+    <p class="is-size-7 has-text-grey">
+      Figure 5: Qualitative comparison of generation results.
+    </p>
+  </div>
+</div>
