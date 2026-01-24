@@ -14,7 +14,7 @@ paper: "https://arxiv.org/pdf/xxx.pdf"
 code: "https://github.com/2kxx/SEER"
 ---
 
-<div style="margin-top:-1.5rem;"></div>
+<div style="margin-top:-3rem;"></div>
 
 ## 🧠 Abstract
 
