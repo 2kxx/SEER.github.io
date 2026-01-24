@@ -16,7 +16,7 @@ code: "https://github.com/2kxx/SEER"
 
 <div style="margin-top:-3rem;"></div>
 
-<h2 class="abstract-title">🧠 Abstract</h2>
+## 🧠 Abstract
 
 <div class="columns is-centered">
   <div class="column is-four-fifths">
