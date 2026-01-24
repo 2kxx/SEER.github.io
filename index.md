@@ -14,7 +14,7 @@ paper: "https://arxiv.org/pdf/xxx.pdf"
 code: "https://github.com/2kxx/SEER"
 ---
 
-<h2 class="has-text-centered">🧩 Cognitive Gap</h2>
+<h2 class="has-text-centered">🧠 Abstract</h2>
 
 <div class="columns is-centered">
   <div class="column is-four-fifths">
@@ -37,7 +37,7 @@ Extensive experiments demonstrate that SEER consistently outperforms state-of-th
 
 ---
 
-## 🧩 Cognitive Gap
+<h2 class="has-text-centered">🧩 Cognitive Gap</h2>
 
 <div class="columns is-centered">
   <div class="column is-three-quarters has-text-centered">
@@ -50,7 +50,7 @@ Extensive experiments demonstrate that SEER consistently outperforms state-of-th
 
 ---
 
-## ⚙️ SEER Framework
+<h2 class="has-text-centered">⚙️ SEER Framework</h2>
 
 <div class="columns is-centered">
   <div class="column is-four-fifths has-text-centered">
@@ -63,7 +63,7 @@ Extensive experiments demonstrate that SEER consistently outperforms state-of-th
 
 ---
 
-## 🔁 Endogenous Reprompting Mechanism
+<h2 class="has-text-centered">🔁 Endogenous Reprompting Mechanism</h2>
 
 <div class="columns is-centered">
 
@@ -85,7 +85,7 @@ Extensive experiments demonstrate that SEER consistently outperforms state-of-th
 
 ---
 
-## 🎯 Qualitative Results
+<h2 class="has-text-centered">🎯 Qualitative Results</h2>
 
 <div class="columns is-centered">
   <div class="column is-four-fifths has-text-centered">
