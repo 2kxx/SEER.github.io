@@ -21,13 +21,13 @@ code: "https://github.com/2kxx/SEER"
     <div class="content has-text-justified">
 
 Unified Multimodal Models (UMMs) exhibit strong understanding, yet this capability often fails to effectively guide generation.
-We attribute this limitation to a **Cognitive Gap**: the model lacks an explicit mechanism to leverage its understanding to improve its own generation process.
+We attribute this limitation to a <strong>Cognitive Gap</strong>: the model lacks an explicit mechanism to leverage its understanding to improve its own generation process.
 
-To bridge this gap, we propose **Endogenous Reprompting**, which transforms understanding from a passive encoding into an explicit generative reasoning step by translating human intent into self-aligned descriptors during generation.
+To bridge this gap, we propose <strong>Endogenous Reprompting</strong>, which transforms understanding from a passive encoding into an explicit generative reasoning step by translating human intent into self-aligned descriptors during generation.
 
-We further introduce **SEER (Self-Evolving Evaluator and Reprompter)**, a two-stage endogenous training framework that requires only **300 samples** from a compact proxy task—Visual Instruction Elaboration.
-First, **Reinforcement Learning with Verifiable Rewards (RLVR)** activates the model’s latent evaluation ability via curriculum learning.
-Second, **Reinforcement Learning with Model-rewarded Thinking (RLMT)** leverages these signals to optimize the generative reasoning policy.
+We further introduce <strong>SEER (Self-Evolving Evaluator and Reprompter)</strong>, a two-stage endogenous training framework that requires only <strong>300 samples</strong> from a compact proxy task, Visual Instruction Elaboration.
+First, <strong>Reinforcement Learning with Verifiable Rewards (RLVR)</strong> activates the model’s latent evaluation ability via curriculum learning.
+Second, <strong>Reinforcement Learning with Model-rewarded Thinking (RLMT)</strong> leverages these signals to optimize the generative reasoning policy.
 
 Extensive experiments demonstrate that SEER consistently outperforms state-of-the-art baselines without sacrificing general multimodal capabilities.
 
@@ -41,7 +41,7 @@ Extensive experiments demonstrate that SEER consistently outperforms state-of-th
 
 <div class="columns is-centered">
   <div class="column is-three-quarters has-text-centered">
-    <img src="{{ site.baseurl }}/static/image/fig1.jpg" style="max-width: 70%; border-radius: 6px;">
+    <img src="{{ site.baseurl }}/static/image/fig1.jpg" style="max-width: 90%; border-radius: 6px;">
     <p class="is-size-7 has-text-grey">
       Figure 1: Illustration of the Cognitive Gap in Unified Multimodal Models.
     </p>
@@ -54,7 +54,7 @@ Extensive experiments demonstrate that SEER consistently outperforms state-of-th
 
 <div class="columns is-centered">
   <div class="column is-four-fifths has-text-centered">
-    <img src="{{ site.baseurl }}/static/image/fig2.jpg" style="max-width: 85%; border-radius: 6px;">
+    <img src="{{ site.baseurl }}/static/image/fig2.jpg" style="max-width: 90%; border-radius: 6px;">
     <p class="is-size-7 has-text-grey">
       Figure 2: Overall framework of SEER.
     </p>
@@ -92,6 +92,22 @@ Extensive experiments demonstrate that SEER consistently outperforms state-of-th
     <img src="{{ site.baseurl }}/static/image/fig5.jpg" style="max-width: 100%; border-radius: 6px;">
     <p class="is-size-7 has-text-grey">
       Figure 5: Qualitative comparison of generation results.
+    </p>
+  </div>
+</div>
+<div class="columns is-centered">
+  <div class="column is-four-fifths has-text-centered">
+    <img src="{{ site.baseurl }}/static/image/fig6.jpg" style="max-width: 100%; border-radius: 6px;">
+    <p class="is-size-7 has-text-grey">
+      Figure 6: Qualitative comparison of different reprompters.
+    </p>
+  </div>
+</div>
+<div class="columns is-centered">
+  <div class="column is-four-fifths has-text-centered">
+    <img src="{{ site.baseurl }}/static/image/fig7.jpg" style="max-width: 100%; border-radius: 6px;">
+    <p class="is-size-7 has-text-grey">
+      Figure 7: Qualitative comparisonof different UMMs.
     </p>
   </div>
 </div>
