@@ -6,8 +6,8 @@ title: "Endogenous Reprompting: Self-Evolving Cognitive Alignment for Unified Mu
 authors: "Zhenchen Tang<sup>1,2</sup>, Songlin Yang<sup>3</sup>, Zichuan Wang<sup>1,2</sup>, Bo Peng<sup>1*</sup>, Yang Li<sup>1,2</sup>, Beibei Dong<sup>1,2</sup>, Jing Dong<sup>1*</sup>"
 
 affiliations:
-  - "1 New Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences"
-  - "2 School of Artificial Intelligence, University of Chinese Academy of Sciences"
+  - "1 New Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences"  
+  - "2 School of Artificial Intelligence, University of Chinese Academy of Sciences"  
   - "3 MMLab@HKUST, The Hong Kong University of Science and Technology"
 
 paper: "https://arxiv.org/pdf/xxx.pdf"
