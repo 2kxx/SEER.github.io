@@ -6,9 +6,9 @@ title: "Endogenous Reprompting: Self-Evolving Cognitive Alignment for Unified Mu
 authors: "Zhenchen Tang<sup>1,2</sup>, Songlin Yang<sup>3</sup>, Zichuan Wang<sup>1,2</sup>, Bo Peng<sup>1*</sup>, Yang Li<sup>1,2</sup>, Beibei Dong<sup>1,2</sup>, Jing Dong<sup>1*</sup>"
 
 affiliations:
-  - "1 New Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences"  
-  - "2 School of Artificial Intelligence, University of Chinese Academy of Sciences"  
-  - "3 MMLab@HKUST, The Hong Kong University of Science and Technology"
+  - "<sup>1</sup> New Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences<br>"
+  - "<sup>2</sup> School of Artificial Intelligence, University of Chinese Academy of Sciences<br>"
+  - "<sup>3</sup> MMLab@HKUST, The Hong Kong University of Science and Technology"
 
 paper: "https://arxiv.org/pdf/xxx.pdf"
 code: "https://github.com/2kxx/SEER"
@@ -21,16 +21,15 @@ code: "https://github.com/2kxx/SEER"
     <div class="content has-text-justified">
 
 Unified Multimodal Models (UMMs) exhibit strong understanding, yet this capability often fails to effectively guide generation.
-We attribute this limitation to a <strong>Cognitive Gap</strong>: the model lacks an explicit mechanism to leverage its understanding to improve its own generation process.
+We identify this as a <strong>Cognitive Gap</strong>: the model lacks an explicit mechanism to leverage its understanding to improve its own generation process.
 
-To bridge this gap, we propose <strong>Endogenous Reprompting</strong>, which transforms understanding from a passive encoding into an explicit generative reasoning step by translating human intent into self-aligned descriptors during generation.
+To bridge this gap, we propose <strong>Endogenous Reprompting</strong>,, a mechanism that transforms the model’s understanding from a passive encoding process into an explicit generative reasoning step by generating self-aligned descriptors during generation.
 
-We further introduce <strong>SEER (Self-Evolving Evaluator and Reprompter)</strong>, a two-stage endogenous training framework that requires only <strong>300 samples</strong> from a compact proxy task, Visual Instruction Elaboration.
-First, <strong>Reinforcement Learning with Verifiable Rewards (RLVR)</strong> activates the model’s latent evaluation ability via curriculum learning.
-Second, <strong>Reinforcement Learning with Model-rewarded Thinking (RLMT)</strong> leverages these signals to optimize the generative reasoning policy.
+To achieve this, we introduce <strong>SEER (Self-Evolving Evaluator and Reprompter)</strong>, a training framework that establishes a two-stage endogenous loop using only 300 samples from a compact proxy task, Visual Instruction Elaboration.
+First, <strong>Reinforcement Learning with Verifiable Rewards (RLVR)</strong> activates the model’s latent evaluation ability via curriculum learning, producing a high-fidelity endogenous reward signal.
+Second, <strong>Reinforcement Learning with Model-rewarded Thinking (RLMT)</strong> leverages this signal to optimize the generative reasoning policy.
 
-Extensive experiments demonstrate that SEER consistently outperforms state-of-the-art baselines without sacrificing general multimodal capabilities.
-
+Experiments show that SEER consistently outperforms state-of-the-art baselines in evaluation accuracy, reprompting efficiency, and generation quality, without sacrificing general multimodal capabilities.
     </div>
   </div>
 </div>
