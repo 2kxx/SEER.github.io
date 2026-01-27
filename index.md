@@ -53,7 +53,7 @@ Experiments show that SEER consistently outperforms state-of-the-art baselines i
 
 <div class="columns is-centered">
   <div class="column is-four-fifths has-text-centered">
-    <img src="{{ site.baseurl }}/static/image/fig2.jpg" style="max-width: 90%; border-radius: 6px;">
+    <img src="{{ site.baseurl }}/static/image/fig2.jpg" style="max-width: 100%; border-radius: 6px;">
     <p class="is-size-7 has-text-grey">
       Figure 2: Overall framework of SEER.
     </p>
@@ -96,7 +96,7 @@ Experiments show that SEER consistently outperforms state-of-the-art baselines i
 </div>
 <div class="columns is-centered">
   <div class="column is-four-fifths has-text-centered">
-    <img src="{{ site.baseurl }}/static/image/fig6.jpg" style="max-width: 100%; border-radius: 6px;">
+    <img src="{{ site.baseurl }}/static/image/fig6.jpg" style="max-width: 90%; border-radius: 6px;">
     <p class="is-size-7 has-text-grey">
       Figure 6: Qualitative comparison of different reprompters.
     </p>
@@ -104,9 +104,17 @@ Experiments show that SEER consistently outperforms state-of-the-art baselines i
 </div>
 <div class="columns is-centered">
   <div class="column is-four-fifths has-text-centered">
-    <img src="{{ site.baseurl }}/static/image/fig7.jpg" style="max-width: 100%; border-radius: 6px;">
+    <img src="{{ site.baseurl }}/static/image/fig7.jpg" style="max-width: 90%; border-radius: 6px;">
     <p class="is-size-7 has-text-grey">
-      Figure 7: Qualitative comparisonof different UMMs.
+      Figure 7: Qualitative comparison of different UMMs.
+    </p>
+  </div>
+</div>
+<div class="columns is-centered">
+  <div class="column is-four-fifths has-text-centered">
+    <img src="{{ site.baseurl }}/static/image/fig8.jpg" style="max-width: 100%; border-radius: 6px;">
+    <p class="is-size-7 has-text-grey">
+      Figure 8: Qualitative comparison of cognitive gap.
     </p>
   </div>
 </div>
