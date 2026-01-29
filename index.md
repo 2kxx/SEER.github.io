@@ -10,7 +10,7 @@ affiliations:
   - "<sup>2</sup> School of Artificial Intelligence, University of Chinese Academy of Sciences<br>"
   - "<sup>3</sup> MMLab@HKUST, The Hong Kong University of Science and Technology"
 
-paper: "https://arxiv.org/pdf/xxx.pdf"
+paper: "https://arxiv.org/pdf/2601.20305"
 code: "https://github.com/2kxx/SEER"
 ---
 
