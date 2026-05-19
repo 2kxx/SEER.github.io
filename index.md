@@ -61,7 +61,7 @@ code: "https://github.com/2kxx/SEER"
   </header>
 
   <figure class="figure-card">
-    <img src="{{ site.baseurl }}/static/image/fig1.jpg" alt="Illustration of the Cognitive Gap in Unified Multimodal Models">
+    <img src="{{ '/static/image/fig1.jpg' | relative_url }}" alt="Illustration of the Cognitive Gap in Unified Multimodal Models">
     <figcaption class="figure-caption">Figure 1: Illustration of the Cognitive Gap in Unified Multimodal Models.</figcaption>
   </figure>
 </section>
@@ -73,7 +73,7 @@ code: "https://github.com/2kxx/SEER"
   </header>
 
   <figure class="figure-card">
-    <img src="{{ site.baseurl }}/static/image/fig2.jpg" alt="Overall framework of SEER">
+    <img src="{{ '/static/image/fig2.jpg' | relative_url }}" alt="Overall framework of SEER">
     <figcaption class="figure-caption">Figure 2: Overall framework of SEER.</figcaption>
   </figure>
 </section>
@@ -86,11 +86,11 @@ code: "https://github.com/2kxx/SEER"
 
   <div class="figure-grid figure-grid--two">
     <figure class="figure-card">
-      <img src="{{ site.baseurl }}/static/image/fig3.jpg" alt="Endogenous evaluation via RLVR">
+      <img src="{{ '/static/image/fig3.jpg' | relative_url }}" alt="Endogenous evaluation via RLVR">
       <figcaption class="figure-caption">Figure 3: Endogenous evaluation via RLVR.</figcaption>
     </figure>
     <figure class="figure-card">
-      <img src="{{ site.baseurl }}/static/image/fig4.jpg" alt="Generative reasoning optimization via RLMT">
+      <img src="{{ '/static/image/fig4.jpg' | relative_url }}" alt="Generative reasoning optimization via RLMT">
       <figcaption class="figure-caption">Figure 4: Generative reasoning optimization via RLMT.</figcaption>
     </figure>
   </div>
@@ -104,19 +104,19 @@ code: "https://github.com/2kxx/SEER"
 
   <div class="results-stack">
     <figure class="figure-card">
-      <img src="{{ site.baseurl }}/static/image/fig5.jpg" alt="Qualitative comparison of generation results">
+      <img src="{{ '/static/image/fig5.jpg' | relative_url }}" alt="Qualitative comparison of generation results">
       <figcaption class="figure-caption">Figure 5: Qualitative comparison of generation results.</figcaption>
     </figure>
     <figure class="figure-card">
-      <img src="{{ site.baseurl }}/static/image/fig6.jpg" alt="Qualitative comparison of different reprompters">
+      <img src="{{ '/static/image/fig6.jpg' | relative_url }}" alt="Qualitative comparison of different reprompters">
       <figcaption class="figure-caption">Figure 6: Qualitative comparison of different reprompters.</figcaption>
     </figure>
     <figure class="figure-card">
-      <img src="{{ site.baseurl }}/static/image/fig7.jpg" alt="Qualitative comparison of different UMMs">
+      <img src="{{ '/static/image/fig7.jpg' | relative_url }}" alt="Qualitative comparison of different UMMs">
       <figcaption class="figure-caption">Figure 7: Qualitative comparison of different UMMs.</figcaption>
     </figure>
     <figure class="figure-card">
-      <img src="{{ site.baseurl }}/static/image/fig8.jpg" alt="Qualitative comparison of cognitive gap">
+      <img src="{{ '/static/image/fig8.jpg' | relative_url }}" alt="Qualitative comparison of cognitive gap">
       <figcaption class="figure-caption">Figure 8: Qualitative comparison of cognitive gap.</figcaption>
     </figure>
   </div>

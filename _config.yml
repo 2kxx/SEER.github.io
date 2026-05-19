@@ -1,8 +1,8 @@
 # Site settings
 title: "SEER"
 description: "Self-Evolving Evaluator and Reprompter — Endogenous Reprompting for Unified Multimodal Models"
-baseurl: ""
-url: ""
+baseurl: "/SEER.github.io"
+url: "https://2kxx.github.io"
 
 # Build settings
 markdown: kramdown
